@@ -1,0 +1,33 @@
+E:\app\build\appsettings.Development.json
+E:\app\build\appsettings.json
+E:\app\build\server.staticwebassets.runtime.json
+E:\app\build\server.staticwebassets.endpoints.json
+E:\app\build\server.exe
+E:\app\build\server.deps.json
+E:\app\build\server.runtimeconfig.json
+E:\app\build\server.dll
+E:\app\build\server.pdb
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\server.csproj.AssemblyReference.cache
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\server.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\server.AssemblyInfoInputs.cache
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\server.AssemblyInfo.cs
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\server.csproj.CoreCompileInputs.cache
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\server.MvcApplicationPartsAssemblyInfo.cs
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\server.MvcApplicationPartsAssemblyInfo.cache
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\server.sourcelink.json
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\scopedcss\bundle\server.styles.css
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\staticwebassets.build.json
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\staticwebassets.development.json
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\staticwebassets.build.endpoints.json
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\staticwebassets\msbuild.server.Microsoft.AspNetCore.StaticWebAssets.props
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\staticwebassets\msbuild.server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\staticwebassets\msbuild.build.server.props
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\staticwebassets\msbuild.buildMultiTargeting.server.props
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\staticwebassets\msbuild.buildTransitive.server.props
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\staticwebassets.pack.json
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\server.csproj.Up2Date
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\server.dll
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\refint\server.dll
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\server.pdb
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\server.genruntimeconfig.cache
+E:\ASP .NET\HappyWedding\server\obj\Release\net8.0\ref\server.dll

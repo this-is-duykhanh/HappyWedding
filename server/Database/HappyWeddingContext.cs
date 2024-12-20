@@ -23,6 +23,8 @@ public partial class HappyWeddingContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        base.OnModelCreating(modelBuilder);
+
         modelBuilder.Entity<Greeting>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__greeting__3214EC07026FB862");

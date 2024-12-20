@@ -5,6 +5,9 @@ using server.Helper;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+
+
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -20,6 +23,7 @@ builder.Services.AddCors(options =>
               .AllowAnyMethod()
               .AllowAnyHeader();
     });
+
 });
 
 builder.Services.AddDbContext<HappyWeddingContext>(options =>
@@ -29,7 +33,27 @@ builder.Services.AddHttpClient();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 
+builder.WebHost.UseUrls("http://0.0.0.0:8080");
+
 var app = builder.Build();
+
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    try
+    {
+        var context = services.GetRequiredService<HappyWeddingContext>();
+        context.Database.Migrate();
+        Console.WriteLine("Database migrated");
+    }
+    catch (Exception ex)
+    {
+        var logger = services.GetRequiredService<ILogger<Program>>();
+        logger.LogError(ex, "An error occurred seeding the DB.");
+    }
+}
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -42,7 +66,7 @@ app.UseCors("AllowAll");
 
 app.UseStaticFiles();
 app.MapControllers();
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
