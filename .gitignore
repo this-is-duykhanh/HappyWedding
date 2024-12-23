@@ -1,1 +1,21 @@
 .vs/
+.vscode/
+
+# Ignore build outputs
+bin/
+obj/
+
+
+.env.local
+
+appsettings.json
+
+# Rider IDE files
+.idea/
+.idea/*
+
+
+# Ignore node_modules
+node_modules/
+
+packages/

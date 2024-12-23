@@ -85,6 +85,7 @@ namespace server.Controllers
         [HttpPost]
         public async Task<ActionResult<Greeting>> PostGreeting([FromForm] PostGreeting greeting)
         {
+
             if (greeting == null)
             {
                 return BadRequest("Invalid data.");
@@ -100,8 +101,10 @@ namespace server.Controllers
 
 
                 // Add a unique identifier (e.g., GUID) to avoid file name collisions
-                var uniqueFileName = $"{Guid.NewGuid()}_{Path.GetFileName(greeting.Image.FileName)}";
+                var sanitizedFileName = Path.GetFileName(greeting.Image.FileName).Replace(" ", "_");
+                var uniqueFileName = $"{Guid.NewGuid()}_{sanitizedFileName}.jpg";
 
+                Console.WriteLine(uniqueFileName);
                 var filePath = Path.Combine(imagesFolder, uniqueFileName);
 
                 // Save the image file to the specified path
@@ -112,6 +115,9 @@ namespace server.Controllers
 
                 // Optionally, save the file path or metadata in the database
                 MapGreeting.Image = uniqueFileName;
+
+                Console.WriteLine("post image");
+
             }
 
 

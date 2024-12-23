@@ -8,7 +8,7 @@ import { IconButton } from '@mui/material';
 
 import Avatar from '@mui/material/Avatar';
 
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const styles = {
     button: {
@@ -79,10 +79,10 @@ export default function MainGrid() {
 
             {/* Contact Buttons */}
 
-            <SocialButton to="/facebook.com" icon={<FacebookOutlinedIcon />} label="Facebook" />
+            <SocialButton to="https://www.facebook.com/maipy998" icon={<FacebookOutlinedIcon />} label="Facebook" />
 
             <SocialButton
-                to="/tiktok.com"
+                to="https://www.tiktok.com/@mymeoo98"
                 icon={
                     <svg
                         fill="#000000"

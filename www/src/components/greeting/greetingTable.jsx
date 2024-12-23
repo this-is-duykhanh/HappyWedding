@@ -99,7 +99,7 @@ const StyledTableRow = styled(TableRow)(({ theme, isEven }) => ({
 export default function GreetingTable() {
     const [rows, setRows] = React.useState([]);
     const [page, setPage] = React.useState(0);
-    const [rowsPerPage, setRowsPerPage] = React.useState(5);
+    const [rowsPerPage, setRowsPerPage] = React.useState(8);
     const [isOrderDetailDialogOpen, setIsOrderDetailDialogOpen] = React.useState(false);
     const [selectedOrder, setSelectedOrder] = React.useState(null);
 
@@ -125,14 +125,14 @@ export default function GreetingTable() {
     const columns = isMobile
         ? [
               { id: 'id', label: 'ID', width: '20%' },
-              { id: 'sender', label: 'Sender', width: '50%' },
-              { id: 'seeDetail', label: 'Details', width: '30%' },
+              { id: 'sender', label: 'Người gửi', width: '50%' },
+              { id: 'seeDetail', label: 'Chi tiết', width: '30%' },
           ]
         : [
-              { id: 'id', label: 'ID', width: '5%' },
-              { id: 'sender', label: 'Sender', width: '20%' },
-              { id: 'message', label: 'Message', width: '70%' },
-              { id: 'seeDetail', label: 'Details', width: '5%' },
+              { id: 'id', label: 'ID', width: '10%' },
+              { id: 'sender', label: 'Người gửi', width: '20%' },
+              { id: 'message', label: 'Lời chúc', width: '60%' },
+              { id: 'seeDetail', label: 'Chi tiết', width: '10%' },
           ];
 
     const handleChangePage = (event, newPage) => {
@@ -157,7 +157,7 @@ export default function GreetingTable() {
     return (
         <Paper sx={{ width: '100%', overflow: 'hidden', padding: 2 }}>
             <TableContainer component={Paper} sx={{ overflowX: 'auto' }}>
-                <Table sx={{ minWidth: isMobile ? 300 : 500 }} aria-label="custom pagination table">
+                <Table sx={{ minWidth: isMobile ? 250 : 500 }} aria-label="custom pagination table">
                     <TableHead>
                         <TableRow>
                             {columns.map((column) => (
@@ -208,6 +208,7 @@ export default function GreetingTable() {
                                     onPageChange={handleChangePage}
                                     rowsPerPage={8}
                                     rowsPerPageOptions={[8]}
+                                    
                                 />
                             ) : (
                                 <TablePagination
@@ -230,7 +231,7 @@ export default function GreetingTable() {
                 <GreetingDetailDialog
                     open={isOrderDetailDialogOpen}
                     onClose={handleCloseOrderDetailDialog}
-                    order={selectedOrder}
+                    greeting={selectedOrder}
                 />
             )}
         </Paper>

@@ -1,4 +1,3 @@
-import { Http } from "@mui/icons-material";
 import http from "./axios";
 
 const HttpResquest = (baseURL) => ({
@@ -38,6 +37,7 @@ const HttpResquest = (baseURL) => ({
             } else {
                 console.error('Request Error:', error.message);
             }
+
             throw new Error('Failed to create resource');
         }
     },

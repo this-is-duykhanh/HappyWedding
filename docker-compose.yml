@@ -3,7 +3,7 @@ services:
         image: mcr.microsoft.com/mssql/server:2022-latest
         environment:
             - ACCEPT_EULA=Y
-            - SA_PASSWORD=Duykhanh@180324
+            - SA_PASSWORD=Server@123456
             - MSSQL_PID=Express
         volumes:
             - sql-data:/var/opt/mssql
@@ -20,7 +20,7 @@ services:
             dockerfile: Dockerfile
 
         environment:
-            ConnectionStrings__DefaultConnection: "Server=sqlserver,1433;Initial Catalog=HappyWedding;User ID=SA;Password=Duykhanh@180324;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False;"
+            ConnectionStrings__DefaultConnection: "Server=sqlserver,1433;Initial Catalog=HappyWedding;User ID=SA;Password=Server@123456;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False;"
             ASPNETCORE_URLS: "http://0.0.0.0:8080"
         depends_on:
             - sqlserver
@@ -45,7 +45,8 @@ services:
 
         environment:
             # - REACT_APP_API_URL=http://backend/api
-            - REACT_APP_API_URL=https://api.thisisduykhanh.id.vn/api
+            - REACT_APP_API_URL=http://localhost:8080/api
+            - REACT_APP_BASE_URL=http://localhost:8080
         ports:
             - "3000:3000"
         depends_on:

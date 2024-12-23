@@ -1,4 +1,4 @@
-import { Box, TextField, Button, Grid, useMediaQuery, Input, IconButton, Typography } from '@mui/material';
+import { Box, TextField, Button, Grid, useMediaQuery, Input, IconButton,CircularProgress } from '@mui/material';
 import SendIcon from '@mui/icons-material/Send';
 import CameraAltIcon from '@mui/icons-material/CameraAlt';
 import { useTheme } from '@mui/material/styles';
@@ -6,10 +6,12 @@ import { useState, useRef } from 'react';
 import styles from './styles';
 import { createGreeting } from '~/services/greetingService';
 import { useNavigate } from 'react-router-dom';
+import imageCompression from 'browser-image-compression';
+
 
 export default function MainGrid() {
     const [previewImage, setPreviewImage] = useState(
-        'https://via.placeholder.com/400x300', // Default placeholder image
+        '/main.jpg', // Default placeholder image
     );
 
     const [selectedImage, setSelectedImage] = useState(null);
@@ -25,6 +27,8 @@ export default function MainGrid() {
     const messageRef = useRef(null);
 
     const [errors, setErrors] = useState({ sender: '', message: '' });
+
+    const [loading, setLoading] = useState(false);
 
     const handleImageChange = (e) => {
         const file = e.target.files[0];
@@ -69,25 +73,44 @@ export default function MainGrid() {
             return;
         }
 
+
+        setLoading(true);
         try {
 
+            const formData = new FormData();
+            formData.append('sender', collectData.sender);
+            formData.append('message', collectData.message);
             if (selectedImage instanceof File) {
-                collectData.image = selectedImage
-            }
 
-            const data = await createGreeting(collectData);
+                const options = {
+                    maxSizeMB: 1,
+                    maxWidthOrHeight: 1920,
+                    useWebWorker: true,
+                };
+
+                const compressedFile = await imageCompression(selectedImage, options);
+                
+                formData.append('image', compressedFile);
+            }
+    
+            // Pass the FormData to the API service
+            const data = await createGreeting(formData);
+            console.log('Data created:', data);
             navigate('/thankyou')
-            return
 
         } catch (error) {
             console.error('Error fetching data:', error);
+            alert('Lỗi khi gửi lời chúc', error.message);
+        }
+        finally {
+            setLoading(false); // Stop loading
         }
 
     };
 
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-    const isTablet = useMediaQuery(theme.breakpoints.between('sm', 'md'));
+    // const isTablet = useMediaQuery(theme.breakpoints.between('sm', 'md'));
 
     return (
         <Box sx={{ ...styles.greetingCard }}>
@@ -159,12 +182,13 @@ export default function MainGrid() {
                             type="submit"
                             variant="contained"
                             color="primary"
-                            endIcon={<SendIcon />}
+                            endIcon={loading ? <CircularProgress size={20} color="inherit" /> : <SendIcon />}
                             maxWidth="sm"
                             fullWidth
                             onClick={handleSubmit}
+                            disabled={loading}
                         >
-                            Gửi
+                            {loading ? 'Sending...' : 'Gửi'}
                         </Button>
                     </Grid>
                 </Grid>

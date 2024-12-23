@@ -1,4 +1,3 @@
-import { height, margin, maxHeight, minHeight, textAlign } from "@mui/system";
 
 const styles = {
     input: {

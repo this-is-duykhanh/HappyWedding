@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+Q3JrBl2n+rNASrU567GKl3S98okto843jeb4lemOCA=",
+  "Hash": "K+MMDyRBL3lbwna0IexDBoyKIT8WkT8kgIrJQJPPo3s=",
   "Source": "server",
   "BasePath": "_content/server",
   "Mode": "Default",
@@ -16,6 +16,27 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\00f80635-b2ef-48af-9500-73b5b55e5ad0_image.jpg",
+      "SourceId": "server",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\",
+      "BasePath": "_content/server",
+      "RelativePath": "images/00f80635-b2ef-48af-9500-73b5b55e5ad0_image#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kokwwz184z",
+      "Integrity": "tMwQVdaEVNE8tg0Nm6uNWm/ygDzCajp81enYeD1hkxY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\00f80635-b2ef-48af-9500-73b5b55e5ad0_image.jpg"
+    },
     {
       "Identity": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\0e7b3c33-c1ed-47da-8303-d3df2b9256be_kobe.jpg",
       "SourceId": "server",
@@ -57,6 +78,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\0f90a341-3ffd-4024-b02f-57207ea357e1_kobe.jpg"
+    },
+    {
+      "Identity": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\3341ffd2-a9b7-493e-a56e-972a10d9f389_Screenshot_2024-04-26_233643.png",
+      "SourceId": "server",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\",
+      "BasePath": "_content/server",
+      "RelativePath": "images/3341ffd2-a9b7-493e-a56e-972a10d9f389_Screenshot_2024-04-26_233643#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "avgmm30m5f",
+      "Integrity": "Gr+hVudd+mac5y9sGXJXoeJDeuAZJ/ZqLeQG3OuhHcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3341ffd2-a9b7-493e-a56e-972a10d9f389_Screenshot_2024-04-26_233643.png"
     },
     {
       "Identity": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\73278bdf-3c3a-4589-8ba3-5cb9b005dbb2_kobe.jpg",
@@ -122,6 +164,69 @@
       "OriginalItemSpec": "wwwroot\\images\\7ecf200c-5ac0-4f4c-abc6-2336b9eb04c5_kobe.jpg"
     },
     {
+      "Identity": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\82c2cbe7-93b3-4410-af0f-76d131af0b89_Screenshot_2024-04-26_233643.png",
+      "SourceId": "server",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\",
+      "BasePath": "_content/server",
+      "RelativePath": "images/82c2cbe7-93b3-4410-af0f-76d131af0b89_Screenshot_2024-04-26_233643#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "avgmm30m5f",
+      "Integrity": "Gr+hVudd+mac5y9sGXJXoeJDeuAZJ/ZqLeQG3OuhHcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\82c2cbe7-93b3-4410-af0f-76d131af0b89_Screenshot_2024-04-26_233643.png"
+    },
+    {
+      "Identity": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\8bc2de4b-457a-430a-b215-8295bb3224df_0AC2BBB1-3C71-4452-9293-4B1CD3F01CEF.png",
+      "SourceId": "server",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\",
+      "BasePath": "_content/server",
+      "RelativePath": "images/8bc2de4b-457a-430a-b215-8295bb3224df_0AC2BBB1-3C71-4452-9293-4B1CD3F01CEF#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g7ucsxrasp",
+      "Integrity": "7BNbolMy2hMO5/uYJYm7LtP22ZHgiJGDgzM6PH3Tpec=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\8bc2de4b-457a-430a-b215-8295bb3224df_0AC2BBB1-3C71-4452-9293-4B1CD3F01CEF.png"
+    },
+    {
+      "Identity": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\9fe5b1c2-36da-4a2a-b475-8d6cb02c9450_757F2A3F-564C-46C1-962F-DC6448345873.jpeg",
+      "SourceId": "server",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\",
+      "BasePath": "_content/server",
+      "RelativePath": "images/9fe5b1c2-36da-4a2a-b475-8d6cb02c9450_757F2A3F-564C-46C1-962F-DC6448345873#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "42tip0k0r1",
+      "Integrity": "nFyqh9rZjO1G60jErQbVg36ZVruSuOm2w+qWNnysq1s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\9fe5b1c2-36da-4a2a-b475-8d6cb02c9450_757F2A3F-564C-46C1-962F-DC6448345873.jpeg"
+    },
+    {
       "Identity": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\b7e41676-35fa-4a9a-a65f-0c3b77dc5e9b_kobe.jpg",
       "SourceId": "server",
       "SourceType": "Discovered",
@@ -162,9 +267,133 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\c7526500-d4b5-4c72-a635-48fce84dbdeb_Figure_1.png"
+    },
+    {
+      "Identity": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\c96bf441-ae87-4d9d-9124-9afb409b1e1d_449496940_782648237357818_4612605472527514272_n.jpg",
+      "SourceId": "server",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\",
+      "BasePath": "_content/server",
+      "RelativePath": "images/c96bf441-ae87-4d9d-9124-9afb409b1e1d_449496940_782648237357818_4612605472527514272_n#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5id5m92shi",
+      "Integrity": "Y3LSfXfLaejK1E2z17UVCAmxifuky0VVvqASGJa9bTo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\c96bf441-ae87-4d9d-9124-9afb409b1e1d_449496940_782648237357818_4612605472527514272_n.jpg"
+    },
+    {
+      "Identity": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\f2146a46-b137-4281-9d71-1ad6c8417e46_blob",
+      "SourceId": "server",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\",
+      "BasePath": "_content/server",
+      "RelativePath": "images/f2146a46-b137-4281-9d71-1ad6c8417e46_blob#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qjdy9pnqpe",
+      "Integrity": "6unIy/XOl6rBbj3vmbovRGHvp34stV6rCajw7zsDRBI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\f2146a46-b137-4281-9d71-1ad6c8417e46_blob"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "images/00f80635-b2ef-48af-9500-73b5b55e5ad0_image.jpg",
+      "AssetFile": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\00f80635-b2ef-48af-9500-73b5b55e5ad0_image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2633333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tMwQVdaEVNE8tg0Nm6uNWm/ygDzCajp81enYeD1hkxY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tMwQVdaEVNE8tg0Nm6uNWm/ygDzCajp81enYeD1hkxY="
+        }
+      ]
+    },
+    {
+      "Route": "images/00f80635-b2ef-48af-9500-73b5b55e5ad0_image.kokwwz184z.jpg",
+      "AssetFile": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\00f80635-b2ef-48af-9500-73b5b55e5ad0_image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2633333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tMwQVdaEVNE8tg0Nm6uNWm/ygDzCajp81enYeD1hkxY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kokwwz184z"
+        },
+        {
+          "Name": "label",
+          "Value": "images/00f80635-b2ef-48af-9500-73b5b55e5ad0_image.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tMwQVdaEVNE8tg0Nm6uNWm/ygDzCajp81enYeD1hkxY="
+        }
+      ]
+    },
     {
       "Route": "images/0e7b3c33-c1ed-47da-8303-d3df2b9256be_kobe.3kqqiwh2oe.jpg",
       "AssetFile": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\0e7b3c33-c1ed-47da-8303-d3df2b9256be_kobe.jpg",
@@ -188,7 +417,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 05:15:35 GMT"
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -233,7 +462,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 05:15:35 GMT"
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -270,7 +499,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 04:38:58 GMT"
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -315,7 +544,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 04:38:58 GMT"
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -326,6 +555,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-DZXOF3DOcB+4GjVN2Pow4j6gaAIkHqdvryih/Gsutw8="
+        }
+      ]
+    },
+    {
+      "Route": "images/3341ffd2-a9b7-493e-a56e-972a10d9f389_Screenshot_2024-04-26_233643.avgmm30m5f.png",
+      "AssetFile": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\3341ffd2-a9b7-493e-a56e-972a10d9f389_Screenshot_2024-04-26_233643.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206252"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gr+hVudd+mac5y9sGXJXoeJDeuAZJ/ZqLeQG3OuhHcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "avgmm30m5f"
+        },
+        {
+          "Name": "label",
+          "Value": "images/3341ffd2-a9b7-493e-a56e-972a10d9f389_Screenshot_2024-04-26_233643.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gr+hVudd+mac5y9sGXJXoeJDeuAZJ/ZqLeQG3OuhHcs="
+        }
+      ]
+    },
+    {
+      "Route": "images/3341ffd2-a9b7-493e-a56e-972a10d9f389_Screenshot_2024-04-26_233643.png",
+      "AssetFile": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\3341ffd2-a9b7-493e-a56e-972a10d9f389_Screenshot_2024-04-26_233643.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206252"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gr+hVudd+mac5y9sGXJXoeJDeuAZJ/ZqLeQG3OuhHcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gr+hVudd+mac5y9sGXJXoeJDeuAZJ/ZqLeQG3OuhHcs="
         }
       ]
     },
@@ -352,7 +663,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 05:00:08 GMT"
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -397,7 +708,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 05:00:08 GMT"
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -434,7 +745,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 03:02:05 GMT"
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -471,7 +782,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 03:02:05 GMT"
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -516,7 +827,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 05:10:22 GMT"
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -561,7 +872,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 05:10:22 GMT"
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -572,6 +883,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-DZXOF3DOcB+4GjVN2Pow4j6gaAIkHqdvryih/Gsutw8="
+        }
+      ]
+    },
+    {
+      "Route": "images/82c2cbe7-93b3-4410-af0f-76d131af0b89_Screenshot_2024-04-26_233643.avgmm30m5f.png",
+      "AssetFile": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\82c2cbe7-93b3-4410-af0f-76d131af0b89_Screenshot_2024-04-26_233643.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206252"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gr+hVudd+mac5y9sGXJXoeJDeuAZJ/ZqLeQG3OuhHcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "avgmm30m5f"
+        },
+        {
+          "Name": "label",
+          "Value": "images/82c2cbe7-93b3-4410-af0f-76d131af0b89_Screenshot_2024-04-26_233643.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gr+hVudd+mac5y9sGXJXoeJDeuAZJ/ZqLeQG3OuhHcs="
+        }
+      ]
+    },
+    {
+      "Route": "images/82c2cbe7-93b3-4410-af0f-76d131af0b89_Screenshot_2024-04-26_233643.png",
+      "AssetFile": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\82c2cbe7-93b3-4410-af0f-76d131af0b89_Screenshot_2024-04-26_233643.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206252"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gr+hVudd+mac5y9sGXJXoeJDeuAZJ/ZqLeQG3OuhHcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gr+hVudd+mac5y9sGXJXoeJDeuAZJ/ZqLeQG3OuhHcs="
+        }
+      ]
+    },
+    {
+      "Route": "images/8bc2de4b-457a-430a-b215-8295bb3224df_0AC2BBB1-3C71-4452-9293-4B1CD3F01CEF.g7ucsxrasp.png",
+      "AssetFile": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\8bc2de4b-457a-430a-b215-8295bb3224df_0AC2BBB1-3C71-4452-9293-4B1CD3F01CEF.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "947265"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7BNbolMy2hMO5/uYJYm7LtP22ZHgiJGDgzM6PH3Tpec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g7ucsxrasp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/8bc2de4b-457a-430a-b215-8295bb3224df_0AC2BBB1-3C71-4452-9293-4B1CD3F01CEF.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7BNbolMy2hMO5/uYJYm7LtP22ZHgiJGDgzM6PH3Tpec="
+        }
+      ]
+    },
+    {
+      "Route": "images/8bc2de4b-457a-430a-b215-8295bb3224df_0AC2BBB1-3C71-4452-9293-4B1CD3F01CEF.png",
+      "AssetFile": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\8bc2de4b-457a-430a-b215-8295bb3224df_0AC2BBB1-3C71-4452-9293-4B1CD3F01CEF.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "947265"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7BNbolMy2hMO5/uYJYm7LtP22ZHgiJGDgzM6PH3Tpec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7BNbolMy2hMO5/uYJYm7LtP22ZHgiJGDgzM6PH3Tpec="
+        }
+      ]
+    },
+    {
+      "Route": "images/9fe5b1c2-36da-4a2a-b475-8d6cb02c9450_757F2A3F-564C-46C1-962F-DC6448345873.42tip0k0r1.jpeg",
+      "AssetFile": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\9fe5b1c2-36da-4a2a-b475-8d6cb02c9450_757F2A3F-564C-46C1-962F-DC6448345873.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2800480"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nFyqh9rZjO1G60jErQbVg36ZVruSuOm2w+qWNnysq1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "42tip0k0r1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/9fe5b1c2-36da-4a2a-b475-8d6cb02c9450_757F2A3F-564C-46C1-962F-DC6448345873.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nFyqh9rZjO1G60jErQbVg36ZVruSuOm2w+qWNnysq1s="
+        }
+      ]
+    },
+    {
+      "Route": "images/9fe5b1c2-36da-4a2a-b475-8d6cb02c9450_757F2A3F-564C-46C1-962F-DC6448345873.jpeg",
+      "AssetFile": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\9fe5b1c2-36da-4a2a-b475-8d6cb02c9450_757F2A3F-564C-46C1-962F-DC6448345873.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2800480"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nFyqh9rZjO1G60jErQbVg36ZVruSuOm2w+qWNnysq1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nFyqh9rZjO1G60jErQbVg36ZVruSuOm2w+qWNnysq1s="
         }
       ]
     },
@@ -598,7 +1155,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 05:07:31 GMT"
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -643,7 +1200,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 05:07:31 GMT"
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -680,7 +1237,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 03:33:31 GMT"
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -725,7 +1282,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 03:33:31 GMT"
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -736,6 +1293,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-tRENvleff1JlmBPrFkAO31E1xXEFb7qF7ISz1Wxng7I="
+        }
+      ]
+    },
+    {
+      "Route": "images/c96bf441-ae87-4d9d-9124-9afb409b1e1d_449496940_782648237357818_4612605472527514272_n.5id5m92shi.jpg",
+      "AssetFile": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\c96bf441-ae87-4d9d-9124-9afb409b1e1d_449496940_782648237357818_4612605472527514272_n.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "341092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y3LSfXfLaejK1E2z17UVCAmxifuky0VVvqASGJa9bTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5id5m92shi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/c96bf441-ae87-4d9d-9124-9afb409b1e1d_449496940_782648237357818_4612605472527514272_n.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y3LSfXfLaejK1E2z17UVCAmxifuky0VVvqASGJa9bTo="
+        }
+      ]
+    },
+    {
+      "Route": "images/c96bf441-ae87-4d9d-9124-9afb409b1e1d_449496940_782648237357818_4612605472527514272_n.jpg",
+      "AssetFile": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\c96bf441-ae87-4d9d-9124-9afb409b1e1d_449496940_782648237357818_4612605472527514272_n.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "341092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y3LSfXfLaejK1E2z17UVCAmxifuky0VVvqASGJa9bTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y3LSfXfLaejK1E2z17UVCAmxifuky0VVvqASGJa9bTo="
+        }
+      ]
+    },
+    {
+      "Route": "images/f2146a46-b137-4281-9d71-1ad6c8417e46_blob",
+      "AssetFile": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\f2146a46-b137-4281-9d71-1ad6c8417e46_blob",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6unIy/XOl6rBbj3vmbovRGHvp34stV6rCajw7zsDRBI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6unIy/XOl6rBbj3vmbovRGHvp34stV6rCajw7zsDRBI="
+        }
+      ]
+    },
+    {
+      "Route": "images/f2146a46-b137-4281-9d71-1ad6c8417e46_blob.qjdy9pnqpe",
+      "AssetFile": "E:\\ASP .NET\\HappyWedding\\server\\wwwroot\\images\\f2146a46-b137-4281-9d71-1ad6c8417e46_blob",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6unIy/XOl6rBbj3vmbovRGHvp34stV6rCajw7zsDRBI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 02:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qjdy9pnqpe"
+        },
+        {
+          "Name": "label",
+          "Value": "images/f2146a46-b137-4281-9d71-1ad6c8417e46_blob"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6unIy/XOl6rBbj3vmbovRGHvp34stV6rCajw7zsDRBI="
         }
       ]
     }

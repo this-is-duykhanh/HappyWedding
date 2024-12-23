@@ -15,6 +15,7 @@ EXPOSE 3000
 RUN npm run build
 
 ENV REACT_APP_API_URL=http://localhost/api
+ENV REACT_APP_BASE_URL=http://localhost
 
 
 CMD ["npm", "start"]

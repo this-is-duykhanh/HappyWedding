@@ -288,4 +288,3 @@ E:\ASP .NET\HappyWedding\server\obj\Debug\net8.0\refint\server.dll
 E:\ASP .NET\HappyWedding\server\obj\Debug\net8.0\server.pdb
 E:\ASP .NET\HappyWedding\server\obj\Debug\net8.0\server.genruntimeconfig.cache
 E:\ASP .NET\HappyWedding\server\obj\Debug\net8.0\ref\server.dll
-E:\ASP .NET\HappyWedding\server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
