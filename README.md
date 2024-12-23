@@ -12,14 +12,9 @@ Before running the project, ensure you have the following:
 ### Frontend
 1. Navigate to the `www` folder.
 2. Copy `.env.example` to `.env.local` and ensure the configurations match your environment.
-3. Run the command:
-   ```bash
-   npm install
-   ```
 
 ### Backend
-1. Navigate to the `server` folder.
-2. Copy `appsettings.example.json` to `appsettings.json`.
+1. Open the `server/appsettings.json` file.
 2. Ensure the `ConnectionString` property matches your database setup (SQL Server).
 
 ## Running the Application
@@ -43,6 +38,8 @@ Before running the project, ensure you have the following:
    ```
 2. Run the following command to start the frontend:
    ```bash
+   npm install
+
    npm start
    ```
 

@@ -8,8 +8,6 @@ obj/
 
 .env.local
 
-appsettings.json
-
 
 # Rider IDE files
 .idea/
